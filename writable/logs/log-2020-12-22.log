@@ -1,0 +1,115 @@
+CRITICAL - 2020-12-22 00:31:01 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\TugasBesar\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\TugasBesar\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\TugasBesar\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\TugasBesar\app\Models\HandphoneModel.php(13): CodeIgniter\Model->findAll()
+#4 C:\xampp\htdocs\TugasBesar\app\Controllers\Handphone.php(18): App\Models\HandphoneModel->getHandphone()
+#5 C:\xampp\htdocs\TugasBesar\system\CodeIgniter.php(918): App\Controllers\Handphone->index()
+#6 C:\xampp\htdocs\TugasBesar\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Handphone))
+#7 C:\xampp\htdocs\TugasBesar\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TugasBesar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\TugasBesar\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-12-22 00:31:01 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\TugasBesar\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\TugasBesar\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Handphone), true)
+#2 C:\xampp\htdocs\TugasBesar\system\Debug\Exceptions.php(308): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\TugasBesar\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-22 00:31:06 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\TugasBesar\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\TugasBesar\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\TugasBesar\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\TugasBesar\app\Models\HandphoneModel.php(13): CodeIgniter\Model->findAll()
+#4 C:\xampp\htdocs\TugasBesar\app\Controllers\Handphone.php(18): App\Models\HandphoneModel->getHandphone()
+#5 C:\xampp\htdocs\TugasBesar\system\CodeIgniter.php(918): App\Controllers\Handphone->index()
+#6 C:\xampp\htdocs\TugasBesar\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Handphone))
+#7 C:\xampp\htdocs\TugasBesar\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TugasBesar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\TugasBesar\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-12-22 00:31:06 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\TugasBesar\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\TugasBesar\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Handphone), true)
+#2 C:\xampp\htdocs\TugasBesar\system\Debug\Exceptions.php(308): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\TugasBesar\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-22 21:28:58 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\TugasBesar\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\TugasBesar\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\TugasBesar\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\TugasBesar\app\Models\HandphoneModel.php(13): CodeIgniter\Model->findAll()
+#4 C:\xampp\htdocs\TugasBesar\app\Controllers\Handphone.php(18): App\Models\HandphoneModel->getHandphone()
+#5 C:\xampp\htdocs\TugasBesar\system\CodeIgniter.php(918): App\Controllers\Handphone->index()
+#6 C:\xampp\htdocs\TugasBesar\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Handphone))
+#7 C:\xampp\htdocs\TugasBesar\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TugasBesar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\TugasBesar\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-12-22 21:28:59 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\TugasBesar\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\TugasBesar\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Handphone), true)
+#2 C:\xampp\htdocs\TugasBesar\system\Debug\Exceptions.php(308): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\TugasBesar\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-22 21:29:03 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\TugasBesar\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\TugasBesar\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\TugasBesar\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\TugasBesar\app\Models\HandphoneModel.php(13): CodeIgniter\Model->findAll()
+#4 C:\xampp\htdocs\TugasBesar\app\Controllers\Handphone.php(18): App\Models\HandphoneModel->getHandphone()
+#5 C:\xampp\htdocs\TugasBesar\system\CodeIgniter.php(918): App\Controllers\Handphone->index()
+#6 C:\xampp\htdocs\TugasBesar\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Handphone))
+#7 C:\xampp\htdocs\TugasBesar\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TugasBesar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\TugasBesar\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-12-22 21:29:03 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\TugasBesar\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\TugasBesar\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Handphone), true)
+#2 C:\xampp\htdocs\TugasBesar\system\Debug\Exceptions.php(308): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\TugasBesar\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-22 21:29:18 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\TugasBesar\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\TugasBesar\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\TugasBesar\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\TugasBesar\app\Models\HandphoneModel.php(13): CodeIgniter\Model->findAll()
+#4 C:\xampp\htdocs\TugasBesar\app\Controllers\Handphone.php(18): App\Models\HandphoneModel->getHandphone()
+#5 C:\xampp\htdocs\TugasBesar\system\CodeIgniter.php(918): App\Controllers\Handphone->index()
+#6 C:\xampp\htdocs\TugasBesar\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Handphone))
+#7 C:\xampp\htdocs\TugasBesar\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TugasBesar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\TugasBesar\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-12-22 21:29:18 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\TugasBesar\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\TugasBesar\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Handphone), true)
+#2 C:\xampp\htdocs\TugasBesar\system\Debug\Exceptions.php(308): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\TugasBesar\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
